@@ -1,0 +1,145 @@
+@media only screen and (max-width:768px) {
+  .navbar__nav i:last-of-type{
+display: inline;
+font-size: 2rem;
+  }
+  .navbar__nav i{
+    display: none;
+  }
+  .navigation{
+    height: 100vh;
+  }
+  .navbar__nav a{
+    display: none;
+  }
+ .slider__contact h2{
+    margin-left: 30px;
+    margin-top: 10px;
+ }
+
+ .slider__contact h3{
+    margin-left: 30px;
+    margin-top: 10px;
+ }
+ .slider__contact p{
+    margin-left: 40px;
+ }
+ .slider__contact button{
+    margin-left: 40px;
+    margin-top: 20px;
+ }
+ .slider__contact .item:first-of-type{
+    height: 45vh;  
+ }
+ .slider__contact .item:last-of-type{
+    margin-left: 18px;
+    width: 450px;
+ }
+  .slider__contact{
+    display: grid;
+    height: 150vh;
+    grid-template-columns: 1fr;
+    background-size: 100% 500vh;
+  }
+  .slider__contact img{
+    padding-top:1px;
+    width: 100%;
+  }
+.banner{
+  margin-top: 17vh;
+  height: 100%;
+}
+.banner__contact{
+    grid-template-columns: 1fr;
+    margin: 0 auto;
+}
+.banner__contact .item{
+margin:  0 auto;
+margin-top: 25px;
+}
+button{
+    margin-left: 160px;
+}
+.about__contact {
+    grid-template-columns: 1fr;
+}
+.about{
+height: 140vh;
+}
+.info__section__contact img{
+    width: 30%;
+}
+.info__section__contact .item{
+    width: 100%;
+}
+.contact_link_box__contact{
+    grid-template-columns: 1fr;
+  height: 10%;
+
+}
+.contact_link_box{
+  height: 219vh;
+}
+.contact_link_box .item{
+  margin: 0 auto;
+  margin-top: 20px;
+}
+.customers__contact{
+  grid-template-columns: 1fr;
+}
+.customers__contact .item{
+  height: 35vh;
+width: 60vh;
+}
+.customers__contact .item:first-of-type{
+  margin-left: 20px;
+}
+.customers__contact img{
+  width: 25%;
+  height: 42%;
+  margin-top: -3rem;
+}
+
+.contact_link_box__contact p{
+  margin-left: 160px;
+  
+}
+.contact_link_box__contact i:first-of-type{
+  margin-left: 80px;
+}
+.info_col{
+  margin-left: 165px;
+}
+.footer{
+  height: 140vh;
+}
+.footer__contact{
+  grid-template-columns: 1fr ;
+}
+.footer__contact .item:first-of-type{
+  margin: 0 auto;
+ width: 50%;
+  text-align: center;
+
+}
+.footer__contact b{
+  margin-left: 15px;
+}
+.footer__contact .item{
+  text-align: center;
+  margin-top: 30px;
+}
+.footer__contact h2{
+  font-size: 2.5rem;
+}
+.footer__contact a{
+  font-size: 1.3rem;
+}
+.footer__contact .enter__email{
+  
+}
+.footer__contact .tr{
+  margin-left: 90px;
+  width: 170px;
+}
+}
